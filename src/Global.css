@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+html,body,#root{
+    height: 100%;
+}
+body{
+    background: rgba(248, 100, 216, 0.288);
+    -webkit-font-smothing: antialiased;
+}
+body, input, buttom{
+    font-family: Roboto,sans-serif;
+}
+aside form button[type=submit]{
+    width: 100%;
+    border: 0;
+    margin-top: 0px;
+    background: #494444;
+    border-radius: 2px;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+aside from button[type=submit]:hover{
+    background: #7941cc;
+}
